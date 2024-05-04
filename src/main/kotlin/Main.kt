@@ -4,7 +4,7 @@ package org.example
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 class Dragon: Monster() {
     override fun frighten(): Boolean {
-        println("Fire!!!")
+        println("Fire!")
         return true
     }
 }
