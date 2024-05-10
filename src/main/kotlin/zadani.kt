@@ -5,10 +5,6 @@ abstract class Appliance {
     abstract val color: String
     abstract fun consumPower()
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/derevo
 class CoffeeMaker : Appliance() {
     override val color = ""
     var coffeeLeft = false
