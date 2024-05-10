@@ -4,6 +4,7 @@ class Dragon: Monster() {
         return true
     }
 }
+
 fun main() {
     val m = arrayOf(
         Vampire(),

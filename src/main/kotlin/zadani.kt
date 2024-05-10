@@ -1,5 +1,3 @@
-package org.example
-
 abstract class Appliance {
     var pluggedIn = true
     abstract val color: String
