@@ -1,11 +1,8 @@
-package org.example
-
 abstract class Appliance {
     var pluggedIn = true
     abstract val color: String
     abstract fun consumPower()
 }
-
 class CoffeeMaker : Appliance() {
     override val color = ""
     var coffeeLeft = false
